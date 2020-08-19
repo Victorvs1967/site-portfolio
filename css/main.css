@@ -177,6 +177,7 @@ h2.section-title {
 .projects {
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
     padding-top: 135px;
+    padding-bottom: 107px;
 }
 
 /* Contacts */
@@ -283,4 +284,3 @@ h2.section-title {
     color: #A5A5A5;
     margin-top: 72px;
 }
-
