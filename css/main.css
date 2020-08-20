@@ -56,6 +56,7 @@ h2.section-title {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
+    margin: 0;
 }
 
 .button {
@@ -65,6 +66,7 @@ h2.section-title {
     border-radius: 5px 5px 10px 10px;
     margin: 0;
     border: none;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -141,7 +143,7 @@ h2.section-title {
 /* features styles */
 
 .features {
-    padding-top: 64px;
+    padding-top: 94px;
     padding-bottom: 92px;
     background: #000000;}
 
@@ -180,7 +182,86 @@ h2.section-title {
     padding-bottom: 107px;
 }
 
+.project-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 1px;
+}
+
+.project-text {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 65px;
+}
+
+.project-text-title {
+    flex-basis: 100%;
+    margin: 0;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.project-item {
+    display: flex;
+    min-width: 50%;
+    align-items: flex-start;
+    margin-bottom: 44px;
+}
+
+.project-icon {
+    display: block;
+    margin-right: 16px;
+}
+
+.project-description-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.project-description-text {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.projects-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #FFBB01;
+    display: inline-block;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+.projects-bullet-active {
+    width: 10px;
+    height: 10px;
+    background-color: #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
 /* Contacts */
+
+.footer {
+    padding-top: 57px;
+}
 
 .contacts-block {
     display: flex;
